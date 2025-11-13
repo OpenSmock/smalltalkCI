@@ -358,7 +358,7 @@ parse_options() {
       ;;
     --curl-options)
       curl_options="${2:-}"
-      shift
+      shift 2
       ;;
     --overwrite-cache)
       config_overwrite_cache="true"
