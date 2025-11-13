@@ -347,6 +347,8 @@ download_file() {
     print_error_and_exit "download_file() expects an URL and a target path."
   fi
 
+  echo "URL to DL : ${url}
+
   if program_exists "curl"; then
     curl --fail --silent --show-error --location \
       --retry 3 --retry-delay 5 --max-time 300 --ssl-no-revoke \
