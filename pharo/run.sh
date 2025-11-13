@@ -25,7 +25,7 @@ pharo::get_image_url() {
       echo "get.pharo.org/64/140"
       ;;
     "Pharo64-13")
-      echo "get.pharo.org/64/130"
+      echo "ihttps://get.pharo.org/64/130"
       ;;
     "Pharo64-12")
       echo "get.pharo.org/64/120"
