@@ -356,10 +356,6 @@ parse_options() {
       config_tracking="false"
       shift
       ;;
-    --curl-options)
-      curl_options="${2:-}"
-      shift 2
-      ;;
     --overwrite-cache)
       config_overwrite_cache="true"
       shift
